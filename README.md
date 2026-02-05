@@ -6,6 +6,7 @@ Uses Pinecone (hybrid retrieval) and GigaChat (generation).
 ## Repo structure
 
 - `rag.ipynb` — main RAG notebook (setup, articles conversion, indexing, LLM QA chain, metrics)
+- `helpers.py` — notebook helper functions (chunk analysis/preview)
 - `streamlit_app.py` — Streamlit UI
 - `README.md` — short usage instructions and ideas on extending RAG to other modalities
 - `articles/` — input PDFs (example corpus)
@@ -14,7 +15,6 @@ Uses Pinecone (hybrid retrieval) and GigaChat (generation).
 - `alzheimer_citations.xlsx` — mapping [PDF filename → full citation]
 - `.env_template` — API keys template
 - `pyproject.toml` / `poetry.lock` — dependency definitions
-- `helpers.py` — notebook helper functions (chunk analysis/preview)
 
 ## Setup
 
@@ -42,12 +42,15 @@ Then edit `.env` and set:
    - `pdf file name` (must match PDF filenames exactly)
    - `citation` (full citation text)
    
-   The app requires this file to work.
+   The app and notebook require this file to work.
 
 ## Run rag.ipynb
 
-Once setup, you can run all cells in notebook `rag.ipynb` to explore RAG implementation and metrics.
-Or you can run streamlit app for convenient RAG use.
+Once setup, you can run (or just read through) all cells in notebook `rag.ipynb` to explore RAG implementation and metrics.
+Conversion of pdf articles to markdown is already done - files are present in articles_md.
+New added articles will be converted automatically in dedicated cell or at the start of the streamlit app,
+but it will take several minutes for each paper.
+
 
 ## Run streamlit app
 
