@@ -1,0 +1,23 @@
+
+[
+  {
+    "question": "Which symptomatic Alzheimer’s drugs are commonly used, and what targets do they act on?",
+    "helpful_papers": ["sunho2014.pdf", "teeba2021.pdf", "gong2018.pdf"]
+  },
+  {
+    "question": "What immune and microglia-related pathways are being targeted to slow Alzheimer’s progression?",
+    "helpful_papers": ["serradas2024.pdf", "weiming2023.pdf", "sunho2014.pdf"]
+  },
+  {
+    "question": "How early can Alzheimer’s-related pathology begin before symptoms?",
+    "helpful_papers": ["valenza2021.pdf", "sunho2014.pdf", "serradas2024.pdf"]
+  },
+  {
+    "question": "What non-amyloid mechanisms can potentially contribute to neurodegeneration and cognitive decline?",
+    "helpful_papers": ["gleason2020.pdf", "serradas2024.pdf", "garciaosta2012.pdf"]
+  },
+  {
+    "question": "Which targets are druggable, and what kinds of intervention strategies are explored against them?",
+    "helpful_papers": ["weiming2023.pdf", "serradas2024.pdf", "penke2023.pdf"]
+  }
+]

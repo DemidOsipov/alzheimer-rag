@@ -1,0 +1,132 @@
+[
+    {
+      "pdf_name": "garciaosta2012.pdf",
+      "pairs": [
+        {
+          "excerpt": "Rolipram, a specific inhibitor of PDE4, was the first compound shown to restore memory deficits and hippocampal LTP in transgenic mice.",
+          "question": "Which PDE inhibitor was first shown to restore both memory deficits and hippocampal LTP in transgenic mouse models?"
+        },
+        {
+          "excerpt": "expression of a short isoform, PDE4D1, augments in AD, and contributes to amyloid-β (Aβ)-associated memory deficits.",
+          "question": "Which PDE4D isoform is increasing in Alzheimer’s disease and contributes to Aβ-associated memory deficits?"
+        }
+      ]
+    },
+    {
+      "pdf_name": "gleason2020.pdf",
+      "pairs": [
+        {
+          "excerpt": "Ferroptosis is an iron-dependent accumulation of lipid hydroperoxides that results in death.",
+          "question": "What is ferroptosis, and what are its key biochemical features?"
+        },
+        {
+          "excerpt": "regional iron load has emerged as a risk factor for more rapid cognitive decline in aging individuals with AD.",
+          "question": "What are the brain-related risk factors for rapid cognitive decline in aging individuals with Alzheimer’s disease?"
+        }
+      ]
+    },
+    {
+      "pdf_name": "gong2018.pdf",
+      "pairs": [
+        {
+          "excerpt": "Most patients with AD begin treatment with cholinesterase inhibitors and then take memantine as the disease progresses.",
+          "question": "What is a commonly described sequence of symptomatic drug treatment as Alzheimer’s disease progresses?"
+        },
+        {
+          "excerpt": "the \"one drug, one target\" (ODOT) strategy has been gradually replaced by \"multiple targets\" as the treatment strategy.",
+          "question": "What therapeutic strategy is replacing the “one drug, one target” approach in Alzheimer’s disease drug development?"
+        }
+      ]
+    },
+    {
+      "pdf_name": "grill2010.pdf",
+      "pairs": [
+        {
+          "excerpt": "more and more potential targets (other than amyloid beta and tau) are emerging for AD therapies: apoE, prion protein, NMDA receptors, calcium, insulin, miRNAs, metal ions, toll-like receptors, immunomodulation, etc.",
+          "question": "Name several potential therapeutic targets for Alzheimer’s disease beyond amyloid beta and tau."
+        },
+        {
+          "excerpt": "Aβ oligomerization and aggregation appear to promote AD pathology and produce neurotoxicity.",
+          "question": "What role do Aβ oligomerization and aggregation play in Alzheimer’s disease pathology?"
+        }
+      ]
+    },
+    {
+      "pdf_name": "penke2023.pdf",
+      "pairs": [
+        {
+          "excerpt": "tau oligomers, which are considered the most toxic tau species, are closely associated with synaptic dysfunction and neurodegeneration.",
+          "question": "Which tau species are the most toxic and what neurological effects they have?"
+        },
+        {
+          "excerpt": "tau oligomers, which are considered the most toxic tau species, are closely associated with synaptic dysfunction and neurodegeneration.",
+          "question": "What tau-related mechanism is linked to synaptic dysfunction and neurodegeneration?"
+        }
+      ]
+    },
+    {
+      "pdf_name": "serradas2024.pdf",
+      "pairs": [
+        {
+          "excerpt": "We discuss several pathways related to innate activation in AD and potential targets such as microglia, TREM2, the complement system, inflammasomes, and cytosolic DNA sensors (Figure 1).",
+          "question": "List some innate-immune-related therapeutic targets for Alzheimer’s disease."
+        },
+        {
+          "excerpt": "Chronic neuroinflammation, driven by glial cell activation and the release of cytokines and chemokines, exerts detrimental effects on the CNS. Contrary to earlier beliefs that brain inflammation was merely a passive response to neuronal loss, current research underscores that neuroinflammation significantly contributes to AD progression",
+          "question": "Could neuroinflammation be a driver of Alzheimer’s progression rather than just a downstream response to neuronal loss?"
+        }        
+      ]
+    },
+    {
+      "pdf_name": "sunho2014.pdf",
+      "pairs": [
+        {
+          "excerpt": "The US Food and Drug Administration (FDA) has approved only five medications for AD, including acetylcholinesterase inhibitors (AChEIs: donepezil, rivastigmine, galantamine and tacrine) and N-methyl-D-aspartate (NMDA) receptor antagonist, such as memantine",
+          "question": "Which FDA-approved medications/classes are used for Alzheimer’s disease and what are their targets?"
+        },
+        {
+          "excerpt": "it is unlikely that a single remedy could cure AD because of its complexity and intricate relationship among the multitude of pathological components during pathogenesis.",
+          "question": "Why is a single-remedy approach considered unlikely to cure Alzheimer’s disease?"
+        }
+      ]
+    },
+    {
+      "pdf_name": "teeba2021.pdf",
+      "pairs": [
+        {
+          "excerpt": "The currently approved therapy includes cholinesterase inhibitors, NMDA-receptor antagonists, and combined drugs.",
+          "question": "What types of drug classes are currently approved for Alzheimer’s disease?"
+        },
+        {
+          "excerpt": "However, the existing drugs have limited effect and only provide temporary symptomatic relief [7].",
+          "question": "What are the limitations of existing Alzheimer’s disease drugs regarding clinical benefit?"
+        }
+      ]
+    },
+    {
+      "pdf_name": "valenza2021.pdf",
+      "pairs": [
+        {
+          "excerpt": "Longitudinal PET studies demonstrated that proteins begin to deposit about two decades before first symptoms appear [43]; thus, plaque formation is a slow and prolonged process.",
+          "question": "Roughly how long before first symptoms can brain protein deposition begin according to longitudinal PET studies?"
+        },
+        {
+          "excerpt": "Palmitoylethanolamide (PEA) is able to modulate astrocytes according to their morpho-functional state.",
+          "question": "How can we modulate astrocytes according to their morpho-functional state?"
+        }
+      ]
+    },
+    {
+      "pdf_name": "weiming2023.pdf",
+      "pairs": [
+        {
+          "excerpt": "Three validated druggable genes (EPHX2, SERPINB1, and SIGLEC11) were identified.",
+          "question": "List some validated druggable genes for Alzheimer's disease."
+        },
+        {
+          "excerpt": "The SIGLEC11 gene is highly expressed in microglia and plays an important role in regulating the microglial inflammatory response.",
+          "question": "Which microglia-expressed genes are important for regulating the microglial inflammatory response?"
+        }
+      ]
+    }
+]
