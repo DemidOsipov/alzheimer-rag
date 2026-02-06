@@ -60,7 +60,7 @@ poetry run streamlit run streamlit_app.py
 App will open in your browser in a few seconds.
 
 In the app:
-- Click **Initialize/Reindex** - it will take several minutes to index
+- Click **Initialize/Reindex** - it will take several minutes to index when running app for the first time. Next time it will take seconds.
 - Write a question and click **Ask**
 - Use **Clear history** to reset the dialogue if needed
 
