@@ -371,17 +371,10 @@ def main() -> None:
     _init_session_state()
 
     st.sidebar.header("Data")
-    data_dir = st.sidebar.text_input("Articles folder", value=str(DEFAULT_DATA_DIR))
-    citations_xlsx = st.sidebar.text_input(
-        "Citations XLSX",
-        value=str(DEFAULT_CITATIONS) if DEFAULT_CITATIONS.exists() else "",
-    )
+    data_dir = str(DEFAULT_DATA_DIR)
+    citations_xlsx = str(DEFAULT_CITATIONS)
 
     if st.sidebar.button("Initialize/Reindex"):
-        if not citations_xlsx:
-            st.sidebar.error("Citations XLSX file is required.")
-            return
-
         citations_path = pathlib.Path(citations_xlsx)
         if not citations_path.exists():
             st.sidebar.error(f"Citations file not found: {citations_xlsx}")

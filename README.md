@@ -30,17 +30,18 @@ poetry install
 cp .env_template .env
 ```
 
-Then edit `.env` and set:
+Get api keys for free at https://developers.sber.ru/ and https://app.pinecone.io and set:
 
 - `PINECONE_API_KEY`
 - `GIGACHAT_API_KEY`
 
-3) The repo already includes example PDFs in `articles/` and a citations file.
+
+3) The repo already includes example PDFs in `articles/` and the xlsx file that maps paper names to citations.
    You can use them as-is, or replace them with your own.
 
 4) **Required**: Have a citations file (`alzheimer_citations.xlsx`) with columns:
    - `pdf file name` (must match PDF filenames exactly)
-   - `citation` (full citation text)
+   - `citation` - full citation text
    
    The app and notebook require this file to work.
 
@@ -48,8 +49,7 @@ Then edit `.env` and set:
 
 Once setup, you can run (or just read through) all cells in notebook `rag.ipynb` to explore RAG implementation and metrics.
 Conversion of pdf articles to markdown is already done - files are present in articles_md.
-New added articles will be converted automatically in dedicated cell or at the start of the streamlit app,
-but it will take several minutes for each paper.
+If you add new articles, they will be converted automatically in dedicated cell or at the start of the streamlit app, but it will take several minutes for each paper.
 
 
 ## Run streamlit app
@@ -60,8 +60,6 @@ poetry run streamlit run streamlit_app.py
 App will open in your browser in a few seconds.
 
 In the app:
-- Set **Articles folder** to your PDF directory
-- Set **Citations XLSX** (required)
 - Click **Initialize/Reindex** - it will take several minutes to index
 - Write a question and click **Ask**
 - Use **Clear history** to reset the dialogue if needed
